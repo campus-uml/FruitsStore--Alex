@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "covergae": "vitest run --coverage",
+    "e2e": "npx cypress open"
   },
   "dependencies": {
     "@codecov/vite-plugin": "^1.9.0",
@@ -17,6 +20,7 @@
     "@radix-ui/react-toast": "^1.2.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "jsdom": "^26.0.0",
     "lucide-react": "^0.475.0",
     "next-themes": "^0.4.4",
     "react": "^19.0.0",
