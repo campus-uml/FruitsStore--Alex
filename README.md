@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# Tienda de Frutas - Proyecto Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visita aqui ..
+[https://layouttest-alex.onrender.com](URL)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Este es un proyecto de tienda de frutas desarrollado con **React**, **Vite**, **TypeScript**, **TailwindCSS** y **ShadCN**. El objetivo de este proyecto es mostrar cómo utilizar estas tecnologías para crear una tienda con una interfaz moderna y fluida para la visualización de productos y categorías de frutas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologías utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de construcción rápida para aplicaciones modernas.
+- **TypeScript**: Superset de JavaScript que añade tipado estático.
+- **TailwindCSS**: Framework de CSS utilitario para crear interfaces responsivas y personalizables.
+- **ShadCN**: Utilizado para componentes personalizados con estilo (opcional).
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Instalación
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clona este repositorio en tu máquina local:
+    ```bash
+    git clone https://github.com/tu-usuario/tienda-de-frutas.git
+    ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. Navega a la carpeta del proyecto:
+    ```bash
+    cd tienda-de-frutas
+    ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. Instala las dependencias utilizando `npm` o `yarn`:
+    ```bash
+    npm install
+    ```
+
+4. Si prefieres usar Yarn:
+    ```bash
+    yarn install
+    ```
+
+## Desarrollo
+
+Para iniciar el servidor de desarrollo, ejecuta:
+
+```bash
+npm run dev
