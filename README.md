@@ -27,15 +27,11 @@ Este es un proyecto de tienda de frutas desarrollado con **React**, **Vite**, **
     cd tienda-de-frutas
     ```
 
-3. Instala las dependencias utilizando `npm` o `yarn`:
+3. Instala las dependencias utilizando `npm`:
     ```bash
     npm install
     ```
 
-4. Si prefieres usar Yarn:
-    ```bash
-    yarn install
-    ```
 
 ## Desarrollo
 
