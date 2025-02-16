@@ -13,4 +13,6 @@ describe("Testing de App.tsx", () => {
     const { getAllByText } = render(<App />);
     expect(getAllByText(/Frutas/i)).toBeTruthy();
   });
+
+
 });

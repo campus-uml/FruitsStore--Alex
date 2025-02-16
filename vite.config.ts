@@ -1,28 +1,23 @@
-/// <reference types="vitest" />
-import {  defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import path from "path";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
-import path from "path"
-
-
-export default defineConfig({
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+export default defineConfig(() => {
+  return {
+    plugins: [react()],
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
     },
-  },
-  plugins: [
-    react(),
-  
-  ],
-
-  test: {
-    // @ts-expect-error - vite-test-runner types are not available
-    global: true,
-    environment: 'jsdom',
-    setupFiles: ['./setupTest.ts'],
-    coverage: {
-      provider: 'v8'
-    }
-  },
-})
+    test: {
+      globals: true,
+      environment: "jsdom",
+      setupFiles: ["./setupTest.ts"],
+      coverage: {
+        provider: "v8",
+        reporter: ["lcov", "text"],
+      },
+    },
+  };
+});
