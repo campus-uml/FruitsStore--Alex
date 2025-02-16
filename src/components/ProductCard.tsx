@@ -24,19 +24,19 @@ export function ProductCard({ product }: ProductCardProps) {
         />
         {product.isFresh && (
             <span className="absolute right-2 bottom-2 rounded bg-sky-500 px-2 py-0.5 text-xs font-medium text-white">
-            FRESH
+            FRESCO
             </span>
         )}
         {product.isBest && (
           <span className="absolute right-2 bottom-2  rounded bg-orange-500 px-2 py-0.5 text-xs font-medium text-white">
-            BEST
+            TOP
           </span>
         )}
       </div>
       <CardContent className="p-3">
         <div className="space-y-1">
           <h3 className="font-medium line-clamp-1">{product.name}</h3>
-          <p className="text-xs text-gray-500">Price per {product.priceUnit}</p>
+          <p className="text-xs text-gray-500">Precio por {product.priceUnit}</p>
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-1">
               <span className="text-lg font-bold text-green-500">
