@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { vi, describe, it, expect, beforeAll } from "vitest";
-import { useIsMobile } from "../hooks/use-mobile";
+import { useIsMobile } from "../../hooks/use-mobile";
 
 beforeAll(() => {
   vi.stubGlobal("matchMedia", (query: string | string[]) => ({
