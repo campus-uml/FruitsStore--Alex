@@ -1,0 +1,1631 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing de App.tsx > componente renderizado correctamente 1`] = `
+<body>
+  <div>
+    <div
+      class="min-h-screen bg-gray-50"
+    >
+      <div
+        class="mx-auto bg-white"
+      >
+        <header
+          class="sticky top-0 z-50 bg-white shadow-sm"
+        >
+          <div
+            class="flex items-center justify-between p-4 lg:px-8"
+          >
+            <button
+              class="rounded-full p-1 hover:bg-gray-100 lg:hidden"
+            >
+              <svg
+                class="lucide lucide-arrow-left h-6 w-6"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m12 19-7-7 7-7"
+                />
+                <path
+                  d="M19 12H5"
+                />
+              </svg>
+            </button>
+            <h1
+              class="text-xl font-semibold lg:text-2xl"
+            >
+              Frutas
+            </h1>
+            <button
+              class="rounded-full p-1 hover:bg-gray-100"
+            >
+              <svg
+                class="lucide lucide-search h-6 w-6"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="8"
+                />
+                <path
+                  d="m21 21-4.3-4.3"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="relative overflow-hidden w-full whitespace-nowrap border-b"
+            dir="ltr"
+            style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+          >
+            <style>
+              [data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+            </style>
+            <div
+              class="h-full w-full rounded-[inherit]"
+              data-radix-scroll-area-viewport=""
+              style="overflow-x: scroll; overflow-y: scroll;"
+            >
+              <div
+                style="min-width: 100%; display: table;"
+              >
+                <div
+                  class="flex w-max space-x-6 px-4 py-3 "
+                >
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors bg-gray-900 text-white"
+                  >
+                    Todos
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Para Ti
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Manzana
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Plátano
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Sandía
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Naranja
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Mango
+                  </button>
+                  <button
+                    class="rounded-full px-6 py-2 text-sm font-medium transition-colors text-gray-500 hover:bg-gray-100 hover:text-gray-900"
+                  >
+                    Uva
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div
+          class="h-[calc(100vh-8rem)]"
+          dir="ltr"
+          style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"
+        >
+          <main
+            class="container mx-auto p-4 lg:p-8"
+          >
+            <div
+              class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6"
+            >
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Cereza Australiana"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://media.healthyfood.com/wp-content/uploads/2017/03/Why-we-like-cherries--500x753.jpg"
+                    width="200"
+                  />
+                  <span
+                    class="absolute right-2 bottom-2 rounded bg-sky-500 px-2 py-0.5 text-xs font-medium text-white"
+                  >
+                    FRESCO
+                  </span>
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Cereza Australiana
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          5.6
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          8.2
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Naranja Fresca"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/R.550172e536b83bf658dbfc88497220da?rik=DOMPjK1vJ1JK4Q&riu=http%3a%2f%2fviva-fresh.com%2fwp-content%2fuploads%2f2016%2f03%2fshutterstock_203176480.jpg&ehk=Zj%2bH7PHCMHxNwgYPjEcaRCcBZ5e4%2bUJ%2br3k4%2br%2f63b4%3d&risl=&pid=ImgRaw&r=0"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Naranja Fresca
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          6.2
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          8.8
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Banana (5 unidades)"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/OIP.P7rjYFznZ8X90ygPj5rwEQHaIU?rs=1&pid=ImgDetMain"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Banana (5 unidades)
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          3.2
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          4.8
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Manzana Japonesa"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://walmarthn.vtexassets.com/arquivos/ids/248906/Manzana-Verde-Unidad-1-24949.jpg?v=637969954121000000"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Manzana Japonesa
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          6.6
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          7.6
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Sandía"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/R.24a3e2d1b243cb26e596ad73491f6be5?rik=vorhELO3zWxFrA&pid=ImgRaw&r=0"
+                    width="200"
+                  />
+                  <span
+                    class="absolute right-2 bottom-2 rounded bg-sky-500 px-2 py-0.5 text-xs font-medium text-white"
+                  >
+                    FRESCO
+                  </span>
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Sandía
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          6.6
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          8.7
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Aguacate Dalat"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/R.32386a7e73f12266da9f31d2729d3ae7?rik=iXr2LBb5JjfSIQ&riu=http%3a%2f%2fnaturaltropic.es%2fwp-content%2fuploads%2f2016%2f06%2f01-AGUACATE-HASS.jpg&ehk=qYUA6HvxyULyPxF1HL30uo01aY4qXGX47y5JpHwh2rs%3d&risl=&pid=ImgRaw&r=0"
+                    width="200"
+                  />
+                  <span
+                    class="absolute right-2 bottom-2  rounded bg-orange-500 px-2 py-0.5 text-xs font-medium text-white"
+                  >
+                    TOP
+                  </span>
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Aguacate Dalat
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          7.2
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          8.6
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Papaya"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://healthjade.com/wp-content/uploads/2017/12/Papaya.jpg"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Papaya
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          5.6
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          6.6
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Aguacate Fresco"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/OIP.3Stovv5YiudQqIRsKNazJAHaE7?rs=1&pid=ImgDetMain"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Aguacate Fresco
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          6.6
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          7.2
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Manzana Verde"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/R.13d90dbfc8f563d8e4146afa05bb79a0?rik=vyR0SiqBnnkzfQ&riu=http%3a%2f%2fphoto.elsoar.com%2fwp-content%2fimages%2fFresh-Green-Apple-Image.jpg&ehk=GP9U4eiGJEkpV5J5cFe6OX5c0BsMLBYU%2ft2pU3y9kFY%3d&risl=&pid=ImgRaw&r=0"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Manzana Verde
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          4.5
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          5.5
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Uvas Rojas"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/R.9fd5facc3581c929d3d587a4df0a22da?rik=SJXqIXcFu2FcJQ&riu=http%3a%2f%2fwww.healthyfoodhouse.com%2fwp-content%2fuploads%2f2012%2f10%2fgrapes-the-curative-properties.jpg&ehk=3VUtZ1cDHhoYZmv6D%2f0UQYtOTz50e3CjmkHA07hAjVE%3d&risl=&pid=ImgRaw&r=0"
+                    width="200"
+                  />
+                  <span
+                    class="absolute right-2 bottom-2 rounded bg-sky-500 px-2 py-0.5 text-xs font-medium text-white"
+                  >
+                    FRESCO
+                  </span>
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Uvas Rojas
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          8.2
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          9.5
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Mango Dulce"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/OIP.7rii30YY61MrqKC1r0VooQAAAA?w=360&h=360&rs=1&pid=ImgDetMain"
+                    width="200"
+                  />
+                  <span
+                    class="absolute right-2 bottom-2  rounded bg-orange-500 px-2 py-0.5 text-xs font-medium text-white"
+                  >
+                    TOP
+                  </span>
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Mango Dulce
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          7.8
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          9
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="rounded-xl border bg-card text-card-foreground shadow relative overflow-hidden transition-shadow hover:shadow-lg"
+              >
+                <button
+                  class="absolute right-2 top-2 z-10 rounded-lg bg-black/20 p-1.5 backdrop-blur-sm transition-colors hover:bg-white "
+                >
+                  <svg
+                    class="lucide lucide-heart h-5 w-5 text-white"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                    />
+                  </svg>
+                </button>
+                <div
+                  class="relative aspect-square overflow-hidden bg-gray-100"
+                >
+                  <img
+                    alt="Fruta del Dragón"
+                    class="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                    height="200"
+                    src="https://th.bing.com/th/id/OIP.71KXy5ZtFSzdqTIsqoxe7QHaHa?rs=1&pid=ImgDetMain"
+                    width="200"
+                  />
+                </div>
+                <div
+                  class="p-3"
+                >
+                  <div
+                    class="space-y-1"
+                  >
+                    <h3
+                      class="font-medium line-clamp-1"
+                    >
+                      Fruta del Dragón
+                    </h3>
+                    <p
+                      class="text-xs text-gray-500"
+                    >
+                      Precio por 
+                      kg
+                    </p>
+                    <div
+                      class="flex items-center justify-between"
+                    >
+                      <div
+                        class="flex items-center gap-1"
+                      >
+                        <span
+                          class="text-lg font-bold text-green-500"
+                        >
+                          $
+                          9.2
+                        </span>
+                        <span
+                          class="text-sm text-gray-400 line-through"
+                        >
+                          $
+                          10.5
+                        </span>
+                      </div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
+                      >
+                        <svg
+                          class="h-5 w-5 text-white"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 512 512"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="176"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <circle
+                            cx="400"
+                            cy="416"
+                            fill="none"
+                            r="16"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M48 80h64l48 272h256"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                          <path
+                            d="M160 288h249.44a8 8 0 0 0 7.85-6.43l28.8-144a8 8 0 0 0-7.85-9.57H128"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
