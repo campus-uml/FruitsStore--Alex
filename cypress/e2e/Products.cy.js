@@ -38,7 +38,15 @@ describe("Pruebas en la card de frutas", () => {
       );
   });
 
-it("debería mostrar 'Manzana Verde' en la lista de productos", () => {
+  it("debería mostrar 'Manzana Verde' en la lista de productos", () => {
     cy.get(".font-medium.line-clamp-1").should("contain.text", "Manzana Verde");
-});
+  });
+  it("deberia hacer hover al tocar un fruta", () => {
+    cy.get(".relative.overflow-hidden.transition-shadow.hover\\:shadow-lg")
+      .first()
+      .trigger("mouseover");
+    cy.get(".relative.overflow-hidden.transition-shadow.hover\\:shadow-lg")
+      .first()
+      .trigger("mouseout");
+  });
 });
