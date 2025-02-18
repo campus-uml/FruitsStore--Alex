@@ -37,4 +37,8 @@ describe("Pruebas en la card de frutas", () => {
         "h-8 w-8 rounded-lg bg-green-500 p-0 hover:bg-green-600 transition-colors"
       );
   });
+
+it("debería mostrar 'Manzana Verde' en la lista de productos", () => {
+    cy.get(".font-medium.line-clamp-1").should("contain.text", "Manzana Verde");
+});
 });
