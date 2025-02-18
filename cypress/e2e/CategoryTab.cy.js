@@ -3,10 +3,28 @@ describe("Pruebas en la pestaña de categorías", () => {
     cy.visit("http://localhost:5173");
   });
 
-it("Debería mostrar tab de categorias", () => {
-    cy.get("button.rounded-full.px-6.py-2.text-sm.font-medium.transition-colors").should("exist");
-    cy.get("button.rounded-full.px-6.py-2.text-sm.font-medium.transition-colors")
-        .should("have.class", "hover:bg-gray-100")
-        .and("have.class", "hover:text-gray-900");
-});
+  it("Debería mostrar tab de categorias", () => {
+    cy.get(
+      "button.rounded-full.px-6.py-2.text-sm.font-medium.transition-colors"
+    ).should("exist");
+    cy.get(
+      "button.rounded-full.px-6.py-2.text-sm.font-medium.transition-colors"
+    )
+      .should("have.class", "hover:bg-gray-100")
+      .and("have.class", "hover:text-gray-900");
+  });
+
+  it("Debería buscar una categoria en el tab", () => {
+    cy.get(
+      "button.rounded-full.px-6.py-2.text-sm.font-medium.transition-colors"
+    )
+      .contains("Para Ti")
+      .should("exist");
+
+    cy.get(
+      "button.rounded-full.px-6.py-2.text-sm.font-medium.transition-colors"
+    )
+      .contains("Todos")
+      .click();
+  });
 });
